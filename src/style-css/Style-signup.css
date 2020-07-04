@@ -11,10 +11,24 @@ body{background-color: #181818;}
   padding-bottom: 30px;
   text-align: center;
   border-radius: 28%;
-  margin-top: 25%;
-  margin-bottom: 25%;
-  overflow:hidden;
+  margin: 20px auto;
 }
+.signup:hover{
+-webkit-box-shadow:5px 5px 8px #FFF,
+-5px -5px 8px #FFF;
+-moz-box-shadow:5px 5px 8px #FFF,
+-5px -5px 8px #FFF;
+-o-box-shadow:5px 5px 8px #FFF,
+-5px -5px 8px #FFF;
+-moz-box-shadow:5px 5px 8px #FFF,
+-5px -5px 8px #FFF;
+-ms-box-shadow:5px 5px 8px #FFF,
+-5px -5px 8px #FFF;
+box-shadow:5px 5px 8px #FFF,
+-5px -5px 8px #FFF;
+}
+
+
 .signup .back{
   background: none;
   border: 1px solid #FFF;
@@ -26,6 +40,7 @@ body{background-color: #181818;}
 .signup h2{
   text-transform: uppercase;
   color: #FFF;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .signup p{
   line-height: 1.6;
@@ -33,17 +48,22 @@ body{background-color: #181818;}
   padding: 0 40px;
   width: 50%;
   margin-left: 21%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .signup .inputs label{
   display: block;
   color: #FFF;
   margin-bottom: 1px;
   padding-top: 26px;
+  text-shadow:  0px 1px 8px #EE0070;
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .signup .inputs input{
   height: 20px;
 }
+.signup .inputs input:hover{ box-shadow: 0px 1px 8px #c60159;}
+
 .signup .inputs .register{
   display: block;
   background-color: #191E22;
@@ -54,6 +74,7 @@ body{background-color: #181818;}
   font-size: 20px;
   border: 0px solid #FFF;
   cursor: pointer;
+  box-shadow: 0px 1px 8px #c60159;
 }
 /* signup Seaction END */
 
