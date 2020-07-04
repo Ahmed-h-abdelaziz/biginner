@@ -1,0 +1,84 @@
+/* Rules */
+.contanier{width: 900px;margin: auto;}
+body{background-color: #181818;}
+/* Rules END */
+
+/* Signup seaction */
+.signup{
+  background-image:url('../img/3a.jpg');
+  background-size: cover;
+  padding-top: 16px;
+  padding-bottom: 30px;
+  text-align: center;
+  border-radius: 28%;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  overflow:hidden;
+}
+.signup .back{
+  background: none;
+  border: 1px solid #FFF;
+}
+.signup .back a{
+  text-decoration: none;
+  color: #FFF;
+}
+.signup h2{
+  text-transform: uppercase;
+  color: #FFF;
+}
+.signup p{
+  line-height: 1.6;
+  color:#FFF;
+  padding: 0 40px;
+  width: 50%;
+  margin-left: 21%;
+}
+.signup .inputs label{
+  display: block;
+  color: #FFF;
+  margin-bottom: 1px;
+  padding-top: 26px;
+  font-weight: bold;
+}
+.signup .inputs input{
+  height: 20px;
+}
+.signup .inputs .register{
+  display: block;
+  background-color: #191E22;
+  color: #FFF;
+  padding: 10px 25px 10px 25px;
+  margin-left: 43%;
+  margin-top: 5%;
+  font-size: 20px;
+  border: 0px solid #FFF;
+  cursor: pointer;
+}
+/* signup Seaction END */
+
+/* Footer */
+.footer{
+  background-color: #191E22;
+  text-align: center;
+  color: #6a6e71;
+  font-weight: bold;
+  padding-bottom:8px;
+  padding-top: 10px;
+  padding-right:10px;
+
+}
+
+
+.footer ul{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  margin-right: -30px;
+  padding-top: 15px;
+}
+
+.footer ul li{display: inline-block;}
+.footer ul li img{padding-right:15px;}
+.footer .fot{color: #FFF;padding-bottom: 5px;}
+/* Footer END */
